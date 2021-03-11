@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "ComposableWatchConnectivity", targets: ["ComposableWatchConnectivity"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "0.15.0")
+        .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "0.16.0")
     ],
     targets: [
         .target(name: "ComposableWatchConnectivity", dependencies: [
